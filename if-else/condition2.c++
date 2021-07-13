@@ -8,7 +8,7 @@ int main()
     cout << "Enter second value.\n";
     cin >> b;
     mult = a * b;
-    if (mult < a || mult < b || mult == a || mult == b || mult < 0)
+    if (mult < a || mult < b || mult < 0)
     {
         cout << "You answer is smaller than entered value.\n";
     }
